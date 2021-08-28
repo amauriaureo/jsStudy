@@ -51,3 +51,9 @@ console.log(obj) // { a: 4, b: 2, c: 3 }
 Object.freeze(obj)
 obj.c = 1234
 console.log(obj) // { a: 4, b: 2, c: 3 }
+
+
+
+
+
+// Object.setPrototypeOf()
