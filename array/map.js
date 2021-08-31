@@ -24,6 +24,7 @@ resultado = nums.map(soma10).map(triplo).map(monetizando)
 
 // ---------------------------------------------------------------------------------
 
+
 const carrinho = [
     '{"nome": "Borracha", "preco": 3.45}',
     '{"nome": "Caderno", "preco": 13.90}',
@@ -38,3 +39,4 @@ const apenasPreco = produto => produto.preco
 
 const result = carrinho.map(paraObjeto).map(apenasPreco)
 console.log(result)
+
