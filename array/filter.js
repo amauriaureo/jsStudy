@@ -32,8 +32,9 @@ console.log(produtos.filter(function(f) {
 }).filter(function(l) {
     return l.preco > 25
 }))
-// Maneira 2
 
+
+// Maneira 2
 const caro = produto => produto.preco > 25
 const fragil = produto => produto.fragil
 console.log(produtos.filter(caro).filter(fragil))
