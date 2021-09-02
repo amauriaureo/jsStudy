@@ -18,3 +18,9 @@ const school = [{
     }]
 }]
 
+const getNotaAluno = aluno => aluno.note
+const getNotasDaTurma = turma => turma.students.map(getNotaAluno)
+
+const notas1 = school.map(getNotasDaTurma)
+console.log(notas1)
+// um único array com todas as anotas, por isso o flatMap
