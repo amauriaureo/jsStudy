@@ -3,6 +3,8 @@ const alunos = [
     {nome: 'Kim', nota: 9.2},
 ]
 //Imperativa
+// tudo agrupado em uma coisa só.
+// passo a passo mais auto-explicativo
 let total1 = 0
 for(var i = 0; i < alunos.length; i++) {
     total1 += alunos[i].nota
@@ -10,7 +12,13 @@ for(var i = 0; i < alunos.length; i++) {
 console.log(total1 / alunos.length)
 
 // Declarativa
+// Abordagem mais interessante 
+// pois aqui existe mais componentes para reuso
+// funções com detalhes internos
+// ocupa-se mais com o que do que com o como
 const getNota = aluno => aluno.nota
 const soma = (total, atual) => total + atual
 const total2 = alunos.map(getNota).reduce(soma)
 console.log(total2 / alunos.length)
+
+
