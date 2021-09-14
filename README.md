@@ -1,9 +1,9 @@
 ## Estudos da Linguagem Javascript
-Aqui você vai encontrar 5 pastas:
+Aqui você vai encontrar 6 pastas:
 
 - [x] Fundamentos;
 - [x] Estruturas de Controle;
-- [ ] Função;
-- [ ] Objeto;
-- [ ] Array;
-
+- [x] Função;
+- [x] Objeto;
+- [x] Array;
+- [ ] Exercícios;
